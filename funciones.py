@@ -14,8 +14,11 @@ while True:
     if opcion==0:
         fu.printv("Adios :D")
         break
+    elif opcion==1:
+        fu.printv("Guardar")
     elif opcion==2:
-        pass
+        fu.printv("Buscar")
     elif opcion==3:
-        pass
-    
+        fu.printv("Certificado")
+    else:
+        fu.printr("Opcion no valida")
